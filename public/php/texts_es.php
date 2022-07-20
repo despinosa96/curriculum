@@ -1,0 +1,5 @@
+<?php
+$t_about_me_intro = 'Soy un chico de 26 años residiendo actualmente en Palma de Mallorca. Apasionado de la historia empecé a estudiar esa carrera pero en seguida me di cuenta que, aunque me gustaba, no era lo que yo me había esperado. Desde entonces me enfoqué en los ordenadores, otro de mis hobbies, centrando mi aprendizaje en distintos <a href="studies.php">'.$studies.'</a> ya encauzándolo dentro del mundo de la informática. Me considero una persona con un nivel de inglés medio, toda serie o película que veo en casa que en su versión original es en inglés la veo sin ningún problema y aunque si es cierto que muy posiblemente me falte vocabulario suelo entender la mayor parte de la película y su trama.
+';
+$t_about_me_hobbies = 'Como ya he mencionado uno de mis hobbies siempre ha sido la informática, además me gusta hacer deporte, viajar, superar nuevos retos y algo sagrado ahora mismo en mi vida es la F1, si hay fin de semana de dicho deporte a no ser que me propongas un plan que tenga que ver con él no existo	&#128517'
+?>
