@@ -1,3 +1,25 @@
 /* ********* */
 /* @HOME */
 /* ********* */
+.home{
+    @include viewport();
+    h2{
+        text-align: center;
+    }
+    p{
+        font-weight: 400;
+        padding: 0 5px;
+        text-align: justify;
+    }
+    a{
+        text-decoration: none;
+        text-transform: lowercase;
+        font-style: italic;
+        border: 0;
+        margin: 0;
+        text-shadow: 0.5px 0.5px $gray-3;
+        &:hover, :active, :visited{
+            color: $primary-color;
+        }
+    }
+}

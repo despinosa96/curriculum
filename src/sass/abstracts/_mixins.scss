@@ -1,3 +1,8 @@
 /* ********* */
 /* @MIXINS */
 /* ********* */
+@mixin viewport(){
+    width: 98%;
+    margin: $max-width_margin;
+    max-width: $max-width;
+}

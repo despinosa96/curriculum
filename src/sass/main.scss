@@ -1,11 +1,10 @@
 // *** BÁSICO ***
-// RESET
-@import 'base/normalize';
-@import 'base/reset';
-
 // VARIABLES y FUNCIONES
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
+// RESET
+@import 'base/normalize';
+@import 'base/reset';
 
 // TIPOGRAFÍA
 @import 'base/typography';

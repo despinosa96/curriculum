@@ -1,4 +1,29 @@
 /* ********* */
 /* @FOOTER */
 /* ********* */
-
+.footer{
+    width: 100%;
+    background: $gray-4;
+    height: auto;
+    h4{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        color: $primary-color;
+        text-shadow: 1px 1px black;
+    }
+    &_content{
+        @include viewport();
+        &_social{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            &-all{
+                padding: 3% 0;
+                img{
+                    width: 48px;
+                }
+            }
+        }
+    }
+}
